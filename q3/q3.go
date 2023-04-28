@@ -2,12 +2,6 @@ package q3
 
 import "errors"
 
-<<<<<<< HEAD
-import "fmt"
-=======
-import "errors"
->>>>>>> 7b966cf97fb3041ac7afdac5dc0bd7f4121bd076
-
 //Você recebe um tabuleiro retangular de M x N quadrados. Além disso, você tem um número ilimitado de peças de dominó
 //padrão de 2 x 1 quadrados. Você pode girar as peças. Você deve colocar o máximo de peças de dominó possível no
 //tabuleiro, seguindo as seguintes condições:

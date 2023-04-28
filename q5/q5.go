@@ -15,6 +15,22 @@ package q5
 //Ajude Pedro a lidar com esta tarefa fácil.
 
 func ProcessString(s string) string {
+	var processedString string
 
-	return ""
+	for i := 0; i < len(s); i++ {
+		if s[i] == 'A' || s[i] == 'E' || s[i] == 'I' || s[i] == 'O' || s[i] == 'U' ||
+			s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u' {
+			continue
+		}
+
+		if s[i] >= 'A' && s[i] <= 'Z' {
+			processedString += string(s[i] + 32)
+		} else {
+			processedString += string(s[i])
+		}
+
+		processedString += ""
+	}
+
+	return processedString
 }

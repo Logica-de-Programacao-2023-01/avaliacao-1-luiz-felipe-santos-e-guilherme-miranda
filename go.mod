@@ -1,3 +1,3 @@
-module github.com/ceub/avaliacao-1
+module avaliacao-1-luiz-felipe-santos-e-guilherme-miranda
 
 go 1.20
